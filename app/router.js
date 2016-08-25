@@ -8,6 +8,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('about'); // from ember g route about
+  this.route('contact');
 });
 
 export default Router;
